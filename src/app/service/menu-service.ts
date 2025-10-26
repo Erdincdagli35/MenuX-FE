@@ -12,7 +12,7 @@ export class MenuService {
   isLoading = false;
   hasError = false;
 
-  private baseURL = 'https://menux.app/api/menu/plaj';
+  private baseURL = 'https://menux.up.railway.app/api/menu/plaj';
 
   constructor(private httpClient: HttpClient) { }
 
