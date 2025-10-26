@@ -51,8 +51,8 @@ export class BeachMenuComponent {
       if (this.currentLang === 'EN') {
         switch (category) {
           case BeachCategory.Beer: return 'Beer';
-          case BeachCategory.Gin: return 'Cin';
-          case BeachCategory.Cocktail: return 'Kokteyl';
+          case BeachCategory.Gin: return 'Gin';
+          case BeachCategory.Cocktail: return 'Cocktail';
           case BeachCategory.Raki: return 'Raki';
           case BeachCategory.Wine: return 'Wine';
           case BeachCategory.Whiskey: return 'Whiskey'; 
